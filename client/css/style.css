@@ -1,0 +1,11 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.user-list li{
+    cursor: pointer
+}
+.user-list li:hover{
+    background-color: rgba(0,0,0,0.25)
+}
